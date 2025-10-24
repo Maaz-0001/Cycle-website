@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/styles/header.css">
   <link rel="stylesheet" href="./assets/styles/general.css">
   <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="./assets/styles/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -159,40 +160,94 @@
       </button>
     </div>
 
-    <div class="d-flex flex-column section2">
+    <div class="d-flex flex-column align-items-center justify-content-center section2">
       <h1 class="text-center mt-5 mb-5">FEATURED GEAR</h1>
 
       <div class="card-group ms-5">
 
-        <div class="card border-0">
+        <div class="card border-0 d-flex flex-column align-items-center justify-content-center">
           <img src="./assets/images/gravel-hero.jpg" class="card-img-top" alt="...">
-          <div class="card-body d-flex flex-column align-items-center">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
             <h5 class="card-title">ADVENTURE AL</h5>
             <p class="card-text">PURE CYCLES</p>
             <p class="card-text">$1,699.99</p>
           </div>
         </div>
-        <div class="card border-0">
-          <img src="./assets/images/gravel_frameset_-_badge.jpg" class="card-img-top" alt="...">
-          <div class="card-body d-flex flex-column align-items-center">
+        <div class="card border-0 d-flex flex-column align-items-center justify-content-center frame-div">
+          <img src="./assets/images/gravel_frameset_-_badge.jpg" class="card-img-top frame" alt="...">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
             <h5 class="card-title">ADVENTURE AL FRAMESET</h5>
             <p class="card-text">PURE CYCLES</p>
             <p class="card-text">$799.99</p>
           </div>
         </div>
-        <div class="card border-0 ms-5">
-          <img src="./assets/images/914621.jpg" class="card-img-top" style="width: 23vw;">
-          <div class="card-body d-flex flex-column align-items-center">
+        <div class="card border-0 d-flex flex-column align-items-center justify-content-center ">
+          <img src="./assets/images/914621.jpg" class="card-img-top helm">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
             <h5 class="card-title">JACANA</h5>
             <p class="card-text">PURE CYCLES</p>
             <p class="card-text">$49.99</p>
           </div>
         </div>
       </div>
-      <button style="width: 300px;">VIEW ALL</button>
+      <button type="button" class="btn v-btn mt-4">VIEW ALL</button>
     </div>
-
   </main>
+
+  <footer class="mt-5 d-flex align-items-start justify-content-between pt-5 px-4">
+    <div>
+      <h6>SHOP</h6>
+      <ul class="list-unstyled">
+        <li>Bike</li>
+        <li>Accessories</li>
+      </ul>
+    </div>
+    <div>
+      <h6>CONNECT</h6>
+      <ul class="list-unstyled">
+        <li>(855)255-5011</li>
+        <li>Returns</li>
+        <li>Warranty</li>
+        <li>FAQ</li>
+        <li>support@purecycles.com</li>
+        <li>Become a Dealer</li>
+        <li>Register Your Bike</li>
+        <li>Privacy Policy</li>
+        <li>E-Bike Battery Recycling</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="list-unstyled">
+        <li>About</li>
+        <li>Find a Dealer</li>
+        <li>Press</li>
+        <li>Videos</li>
+      </ul>
+    </div>
+    <div class="d-flex flex-column">
+      <h6>DON'T MISS OUT</h6>
+      <P>These days our bikes sell out fast! Sign up so you don't miss it</P>
+      <!-- <form action="">
+        <input type="text" >
+      </form> -->
+      <ul class="d-flex align-items-center list-unstyled gap-3">
+        <li>
+          <img src="./assets/images/instagram.png" style="width: 30px;">
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="100" viewBox="0 0 24 24"
+            style="fill:#FFFFFF;">
+            <path
+              d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z">
+            </path>
+          </svg>
+        </li>
+        <li>
+          <img src="./assets/images/x.png" style="width: 30px;">
+        </li>
+      </ul>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>

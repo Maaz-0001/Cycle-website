@@ -22,14 +22,40 @@
   border-radius: 2px;
 }
 }
-@media screen and (max-width:575.9px) {
-  .section2{
-    overflow: scroll;
-  }
+
+
+@media screen and (max-width:768px) {
   .card-group{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
+  }
+  .card-body h5{
+    font-size: 3vw;
+  }
+  .card-body p{
+    font-size: 2vw;
+  }
+  .card-body > p:nth-child(3) {
+    font-size: 2.5vw;
+  }
+  .frame{
+    width: 24vw;
+  }
+  .frame-div{
+    padding: 0 120px;
   }
   
+}
+@media screen and (min-width: 768.1px) {
+  .helm{
+    width: 23vw;
+  }
+}
+.v-btn{
+  width: 130px;
+  background-color: #ab9a6f;
+  color: white;
+  border-radius: 3px;
 }
