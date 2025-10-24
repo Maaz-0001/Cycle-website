@@ -2,6 +2,34 @@
   height: 700px;
   object-fit: cover;
 }
+.adv-div{
+  justify-self: flex-start;
+  margin-bottom: 180px;
+}
+
+@media screen and (min-width:768px) {
+  
+  .adv-div p{
+    font-size: 20px;
+  letter-spacing: 5px;
+
+}
+.adv-div h1{
+  font-size: 65px;
+}
 .adv-div button{
-  background-color: black;
+  width: 200px;
+  border-radius: 2px;
+}
+}
+@media screen and (max-width:575.9px) {
+  .section2{
+    overflow: scroll;
+  }
+  .card-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
