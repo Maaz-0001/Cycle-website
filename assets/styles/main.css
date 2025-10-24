@@ -1,0 +1,7 @@
+.carousel-item img{
+  height: 700px;
+  object-fit: cover;
+}
+.adv-div button{
+  background-color: black;
+}

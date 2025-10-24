@@ -1,0 +1,16 @@
+.container-fluid{
+  background-color: #333333;
+}
+header{
+  background-color: #333333;
+}
+nav{
+  background-color: #333333;
+}
+.icons-div{
+  color: white;
+  font-size: 25px;
+}
+.icons-div i{
+  margin-left: 20px;
+}
